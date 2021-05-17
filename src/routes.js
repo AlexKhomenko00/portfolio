@@ -1,5 +1,7 @@
+import { lazy } from "react";
+
 const { default: MainPage } = require("pages/MainPage");
-const { default: ProjectPage } = require("pages/ProjectPage");
+const ProjectPage = lazy(() => import("pages/ProjectPage"));
 
 export const routesNames = {
   MAIN_PAGE: "/",
