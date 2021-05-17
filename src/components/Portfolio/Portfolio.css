@@ -1,0 +1,22 @@
+.portfolio {
+  margin-bottom: 230px;
+  padding-top: 280px;
+  border-top-right-radius: 90px;
+  background-color: var(--body-bg-color);
+}
+.projects-wraper {
+  position: relative;
+}
+
+.portfolio-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Media */
+
+@media screen and (min-width: 45rem) {
+  .portfolio-header {
+    text-align: left;
+  }
+}

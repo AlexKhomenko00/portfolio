@@ -1,0 +1,36 @@
+.portfolio-footer {
+  background-color: var(--main-bg-color);
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+}
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px 10px;
+}
+
+.social-medias {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  flex-basis: 40%;
+}
+
+.social-medias__img {
+  fill: var(--main-text-color);
+  width: 20px;
+  height: 20px;
+}
+
+/* Media */
+
+@media screen and (min-width: 45rem) {
+  .footer-wrapper {
+    padding: 20px 0;
+    justify-content: space-between;
+  }
+  .social-medias {
+    flex-basis: 21%;
+  }
+}

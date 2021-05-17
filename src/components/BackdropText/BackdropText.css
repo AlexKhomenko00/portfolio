@@ -1,0 +1,65 @@
+.backdrop-text {
+  display: none;
+  position: absolute;
+  user-select: none;
+  top: -120px;
+  font-family: var(--bg-font-family);
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 3rem;
+  letter-spacing: 3px;
+  color: var(--secondary-text-color);
+  background-size: cover;
+  opacity: 0.1;
+}
+
+.left {
+  left: 10px;
+}
+
+.right {
+  right: -30px;
+}
+
+.backdrop-text__span {
+  display: block;
+}
+
+@media screen and (min-width: 30rem) {
+  .backdrop-text {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 45rem) {
+  .backdrop-text {
+    top: -130px;
+    font-size: 85px;
+    line-height: 3.3rem;
+  }
+
+  .left {
+    left: -32px;
+  }
+
+  .right {
+    right: -20px;
+  }
+}
+
+@media screen and (min-width: 70rem) {
+  .backdrop-text {
+    top: -165px;
+    font-size: 102px;
+    line-height: 4.5rem;
+  }
+
+  .left {
+    left: -85px;
+  }
+
+  .right {
+    right: 10px;
+    top: -125px;
+  }
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--main-font-family), serif;
+  background-color: var(--body-bg-color);
+}
+
+.section-header {
+  color: var(--secondary-text-color);
+  font-size: 34px;
+  position: relative;
+}
+
+.section-header::before {
+  content: "";
+  position: absolute;
+  top: -35px;
+  width: 25px;
+  height: 25px;
+  border: 6px solid var(--secondary-text-color);
+  border-radius: 50%;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+  display: block;
+  color: var(--main-text-color);
+}
+
+@media screen and (min-width: 100rem) {
+  .App {
+    zoom: 1.5;
+  }
+}
+
+@media screen and (min-width: 150rem) {
+  .App {
+    zoom: 2;
+  }
+}

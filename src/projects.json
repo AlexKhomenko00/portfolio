@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Aviasales-test",
+    "img": "projects/aviasales.jpg",
+    "github": "https://github.com/AlexKhomenko00/aviasales-tickets-fetcher--test",
+    "link": "https://alexkhomenko00.github.io/aviasales-tickets-fetcher--test/",
+    "description": "Front-end test-task for the Aviasales - position 'Front-end Developer with React' ",
+    "hurdles": [
+      "Fetching tickets from server, with  error in random request",
+      "Dealing with stops' filters realized in checkboxes",
+      "Checkbox 'All' behavior(switch from all to none)"
+    ],
+    "upgrades": [
+      "Refetching on error from server",
+      "Handling checkboxes behavior ",
+      "Enhanced knowledge with Redux hooks"
+    ],
+    "tools": ["React", "Redux", "Redux-toolkit", "axious"]
+  },
+  {
+    "id": 2,
+    "name": "Hacker-news",
+    "img": "projects/hacker-news.jpg",
+    "github": "https://github.com/AlexKhomenko00/hacker-news-test",
+    "link": "http://hacker-news-test-task.herokuapp.com/",
+    "description": "Full-stack news-fetcher based in Hacker-news API logic delagated to the simple NodeJS/Express server, and news-fetching realized with React and TailwindCSS ",
+    "hurdles": [
+      "Displaying nested subcomments",
+      "Installing Tailwind CSS in React due to bag :)"
+    ],
+    "upgrades": [
+      "TailwindCSS markup",
+      "Enhanced knwoledge with express server",
+      "Acquired understanding in Firebase type API"
+    ],
+    "tools": [
+      "React",
+      "Redux",
+      "Redux-toolkit",
+      "TaiwindCSS",
+      "NodeJS",
+      "Express",
+      "Hacker-news-API"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Movies-rater",
+    "img": "projects/movies.jpg",
+    "github": "https://github.com/AlexKhomenko00/movies-rater",
+    "link": "https://alexkhomenko00.github.io/movies-rater/",
+    "description": "Front-end movies-rater  with React/Redux and TailwindCSS ",
+    "hurdles": [
+      "Limiting values in input fields as per client's request",
+      "Installing Tailwind CSS in React due to bag :)"
+    ],
+    "upgrades": [
+      "TailwindCSS markup for tabels",
+      "Developed knwoledge about input fields restriction"
+    ],
+    "tools": ["React", "Redux", "Redux-toolkit", "TaiwindCSS"]
+  },
+  {
+    "id": 4,
+    "name": "Phonebook",
+    "img": "projects/phonebook.jpg",
+    "github": "https://github.com/AlexKhomenko00/react-phonebook/",
+    "link": "https://khomenenko-phonebook.netlify.app/",
+    "description": "Front-end phonebook application with React/Redux",
+    "hurdles": [
+      "Handling the async requests from Api",
+      "Routing with react-router-dom",
+      "Persisting the state with redux-persist"
+    ],
+    "upgrades": [
+      "Routing skills with react-router-dom",
+      "Acquired knwoledge with redux-persist"
+    ],
+    "tools": [
+      "React",
+      "Redux",
+      "Redux-toolkit",
+      "React-router-dom",
+      "Redux-persist"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Movies-finder",
+    "img": "projects/movies-finder.jpg",
+    "github": "https://github.com/AlexKhomenko00/movies-finder",
+    "link": "https://akh-goit-react-hw-04-movies.netlify.app/",
+    "description": "Front-end movies-finder with React/Redux and TailwindCSS ",
+    "hurdles": [
+      "Handling the async requests from Api",
+      "Routing with react-router-dom"
+    ],
+    "upgrades": ["Routing skills with react-router-dom"],
+    "tools": ["React", "Redux", "Redux-toolkit", "React-router-dom"]
+  }
+]

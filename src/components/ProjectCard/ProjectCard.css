@@ -1,0 +1,135 @@
+.project-card {
+  padding: 50px 0;
+  font-family: var(--bg-font-family), serif;
+  width: 82%;
+  margin: 0 auto;
+}
+
+.btn-wrapper {
+  margin-bottom: 30px;
+}
+
+.project-card__data {
+  text-align: center;
+}
+
+.project-card__figure {
+  height: 17rem;
+  overflow: hidden;
+  border-radius: 25px;
+  margin-bottom: 40px;
+}
+
+.project-card__img {
+  width: 100%;
+  height: inherit;
+  display: block;
+}
+
+.project-card__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-card__title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.project-card__descr {
+  font-weight: 300;
+  margin-bottom: 40px;
+  color: rgb(126, 126, 126);
+}
+
+.project-card__list-title {
+  color: rgb(124, 124, 124);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.project-card__list {
+  margin-bottom: 40px;
+  color: rgb(70, 70, 70);
+  font-weight: 300;
+}
+
+@media screen and (min-width: 25rem) {
+  .project-card__figure {
+    height: 20rem;
+  }
+}
+
+@media screen and (min-width: 40rem) {
+  .project-card__figure {
+    width: 100%;
+    margin-right: 40px;
+    height: 35rem;
+    margin: 0 auto 30px;
+    overflow: hidden;
+    border-radius: 29% 12% 24% 15% / 25% 13% 30% 15%;
+  }
+  .project-card {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 55rem) {
+  .project-card {
+    padding-top: 70px;
+  }
+  .project-card_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .project-card__data {
+    max-width: 400px;
+  }
+
+  .btn-wrapper {
+    margin-bottom: 0;
+  }
+
+  .project-card__links {
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+  }
+
+  .project-card__figure {
+    margin-right: 20px;
+  }
+
+  .project-card__img {
+    width: 100%;
+    height: inherit;
+    display: block;
+    object-fit: fill;
+  }
+
+  .project-card__title {
+    margin-bottom: 20px;
+    font-size: 38px;
+    font-weight: 400;
+  }
+  .project-card__descr {
+    font-weight: 300;
+    font-size: 18px;
+  }
+  .project-card__info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  .project-card__list-title {
+    font-size: 26px;
+  }
+
+  .project-card__list {
+    font-size: 18px;
+  }
+}

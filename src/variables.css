@@ -1,0 +1,10 @@
+:root {
+  --body-bg-color: #f0fffb;
+  --main-text-color: #f0f8ff;
+  --main-bg-color: #1ca87e;
+  --secondary-text-color: #1ca87e;
+  --secondary-bg-color: #47b896;
+  --text-description-color: rgb(107, 114, 128);
+  --main-font-family: "Noto Sans";
+  --bg-font-family: "Poppins";
+}

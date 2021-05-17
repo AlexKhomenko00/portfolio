@@ -1,0 +1,35 @@
+.technologies {
+  display: flex;
+  padding: 0 15px;
+  align-items: center;
+  margin-bottom: 130px;
+  position: relative;
+}
+
+.technologies::before {
+  content: "";
+  position: absolute;
+}
+
+.technologies-description {
+  flex-basis: 80%;
+  margin-left: 30px;
+}
+
+.technologies-description__title {
+  margin-bottom: 20px;
+}
+
+.technologies-description__text {
+  color: var(--text-description-color);
+}
+
+/* Media */
+@media screen and (min-width: 45rem) {
+  .technologies {
+    padding: 0;
+  }
+  .technologies-description {
+    margin-left: 30px;
+  }
+}
